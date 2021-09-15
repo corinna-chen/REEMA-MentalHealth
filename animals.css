@@ -1,0 +1,381 @@
+/* nav bar  */
+.logo {
+    height: 100px;
+    width: 240px;
+    margin: 0px; 
+    padding: 0px;
+    border: 0px;
+} 
+
+body {
+  font-size: 15px;
+}
+
+nav {
+  background-color: rgb(196, 231, 245);
+  margin: 0;
+  overflow: hidden;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start; 
+    padding-right: 10px;
+}
+
+nav ul li {
+  display: inline-block;
+  list-style-type: none;
+}
+
+nav ul li a {
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  padding: 25px;
+  margin: 3px;
+  line-height: 100px;
+  font-size: 25px;
+}
+
+nav ul li:first-child {
+    margin-right: auto;
+}
+
+nav ul li a:hover {
+  background-color: #111;
+  text-align: center;
+}
+
+/* general formating  */
+
+h1 {
+  font-family: 'luxus brut';
+  text-align: center;
+  font-size: 55px;
+}
+
+h2 {
+  font-family: 'luxus brut';
+  text-align: center;
+  font-size: 45px;
+}
+
+h3 {
+  font-family: 'luxus brut';
+  text-align: center;
+  font-size: 40px;
+}
+
+h5 {
+    font-size: 20px;
+} 
+
+
+p {
+    font-size: 20px;
+}
+
+li {
+    font-size: 20px;
+}
+
+
+/* up button */
+.up {
+    background-color: Transparent;
+    border: 0px;
+}
+
+.imgup{
+    height: 170px;
+    width: 160px;
+}
+
+.upBtn {
+    text-align: right;
+}
+
+/* pros and cons table */
+
+.chart {
+    float: center;
+    background-color: rgb(255, 221, 153);
+    
+}
+
+.pros {
+    float: left;
+    background-color: rgb(255, 212, 128);
+    width: 46%;
+    height: auto; 
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.cons {
+    float: left;
+    width: 46%;
+    background-color: rgb(255, 221, 153);
+    height: auto; 
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.chart:after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+
+.animalChartHeaderPros {
+    font-size: 35px;
+    color: green;
+}
+
+.animalChartHeaderCons {
+    font-size: 35px;
+    color: red; 
+}
+
+.animalLabel {
+    font-size: 30px;
+}
+
+.animalbtnClass {
+  text-align: center;
+  margin-bottom: 10px; 
+}
+
+.animalButton {
+    font-size: 20px;
+    background-color: #FAFAC6; 
+    width: auto; 
+    height: auto;
+    padding: 5px;
+}
+
+.animalButton:hover {
+  background-color: rgb(163, 194, 194);
+}
+
+.an1 {
+    background-color: rgb(255, 230, 128);
+}
+
+.an2 {
+    background-color: rgb(163, 194, 194);
+}
+
+.an3 {
+    background-color: rgb(163, 194, 194);
+}
+
+.an4 {
+    background-color: rgb(255, 230, 128);
+}
+
+#content {
+    padding: 100px; 
+}
+
+.question {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 2em;
+    text-align: center;
+}
+
+.answers {
+    text-align: center;
+}
+
+#quizBtns {
+    background-color: peachpuff;
+    margin: 20px;
+    text-align: center;
+    width: 160px;
+    height: 40px;
+    font-size: 18px;
+}
+
+#quizBtns:hover{
+    background-color: lightyellow;
+}
+
+#quizBtns:disabled {
+  cursor: not-allowed;
+}
+
+.retakeQuiz {
+    background-color: #EFA7A7;
+    margin: 40px;
+    text-align: center;
+    width: 180px;
+    height: 60px;
+    font-size: 18px;
+    box-shadow: 3px 6px;
+}
+
+.retakeQuiz:hover {
+    background-color: #C8BFC7;
+}
+
+.dogDuck {
+    max-width: 100%;
+    height: auto;
+}
+
+.text {
+    float: left;
+    width: 50%;
+}
+
+.image {
+    float: left;
+    width: 37%;
+    padding-top: 20px;
+    padding-left: 8%;
+    padding-right: 5%;
+} 
+
+
+.an1:after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+
+.catpics {
+    /* sets max width */
+    width: 250px;
+    /* sizes it if necessary */
+    max-width: 100%;
+    height: auto;
+}
+
+
+.an3:after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+
+.orAnd {
+    color: red;
+}
+
+@media screen and (max-width: 600px) {
+    .imgup{
+        height: 110px;
+        width: 100px;
+    }
+
+    .up {
+        background-color: Transparent;
+        border: 0px;
+    }
+    .upBtn {
+        text-align: right;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    h3 {
+        font-size: 25px;
+    }
+
+    h5 {
+        font-size: 18px;
+    }
+
+    .orAnd {
+        font-size: 40px;
+    }
+
+    p {
+        font-size: 15px;
+    }
+
+    li {
+        font-size: 15px;
+    }
+
+    #content {
+        padding: 12px;
+    }
+
+
+    #quizBtns {
+        margin: 15px auto;
+        font-size: 15px;
+        display: block;
+    }
+
+    .logo {
+        height: 70px;
+        width: 180px;
+    }
+
+    .navbar {
+        width: 100%;
+        height: 150px;
+        overflow-y: auto;
+    }
+
+    .navbar li {
+        background-color: rgb(196, 231, 245);
+        color: #fff;
+        display: block;
+        padding: 15px;
+        text-decoration: none;
+        width: 100%;
+        text-align: center;
+        margin: 0px;
+        margin-left: 10px;
+    }
+
+    a {
+        width: 100%;
+    }
+
+    nav ul li a {
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        margin: 1px auto;
+        line-height: 10px;
+        font-size: 20px;
+        width: 100%;
+    }
+
+    nav ul li:last-child {
+        margin-bottom: 10px;
+    }
+
+    nav ul li:first-child:hover {
+        background-color: transparent;
+    }
+
+    nav ul li:hover {
+        background-color: #111;
+        text-align: center;
+    }
+
+    nav ul li a:hover {
+        background-color: transparent;
+        text-align: center;
+    }
+
+}
+

@@ -1,0 +1,217 @@
+/* nav bar  */
+.logo {
+    height: 100px;
+    width: 280px;
+    margin: 0px; 
+    padding: 0px;
+    border: 0px;
+} 
+
+
+nav {
+  background-color: rgb(196, 231, 245);
+  margin: 0;
+  overflow: hidden;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start; 
+    padding-right: 10px;
+}
+
+nav ul li {
+  display: inline-block;
+  list-style-type: none;
+}
+
+nav ul li a {
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  padding: 25px;
+  margin: 3px;
+  line-height: 100px;
+  font-size: 25px;
+}
+
+nav ul li:first-child {
+    margin-right: auto;
+}
+
+nav ul li a:hover {
+  background-color: #111;
+}
+
+/* up button */
+.up {
+    background-color: Transparent;
+    border: 0px;
+}
+
+.imgup{
+    height: 170px;
+    width: 160px;
+}
+
+.upBtn {
+    text-align: right;
+}
+
+/* general formating  */
+
+body {
+  font-size: 15px;
+  font-family: 'luxus brut';
+}
+
+h1 {
+  font-family: 'luxus brut';
+  text-align: center;
+  font-size: 55px;
+}
+
+h2 {
+  font-family: 'luxus brut';
+  text-align: center;
+  font-size: 45px;
+}
+
+h3 {
+  font-family: 'luxus brut';
+  text-align: center;
+  font-size: 40px;
+}
+
+p {
+    font-size: 20px;
+}
+
+a {
+    color: blue;
+}
+
+/* exercise tab */
+
+.preResearch {
+  font-family: 'luxus brut';
+  text-align: center;
+}
+
+.ex1 {
+  background-color: #97F7D1;
+  padding: 100px; 
+}
+
+
+.ex2 {
+  background-color: #97BDF7;
+  padding: 100px; 
+}
+
+.ex3 {
+  background-color: #A6E0F9; 
+  padding: 100px;
+}
+
+.ex4 {
+  background-color: rgb(163, 194, 194); 
+  padding: 100px;
+}
+
+.workoutVidsBtns {
+  text-align: center;
+}
+
+.btncolor {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.vidBtn :hover {
+  background-color: #96C3CE;
+}
+
+.vidBtn {
+    font-size: 20px;
+    background-color: #26547C; 
+}
+
+@media screen and (max-width: 600px) {
+    .imgup{
+        height: 110px;
+        width: 100px;
+    }
+
+    p {
+        font-size: 15px;
+    }
+
+    #content {
+        padding: 20px;
+    }
+
+    .vidBtn {
+        display: block;
+        margin: 10px auto;
+    }
+
+    .logo {
+        height: 70px;
+        width: 180px;
+    }
+
+    .navbar {
+        width: 100%;
+        height: 150px;
+        overflow-y: auto;
+    }
+
+    .navbar li {
+        background-color: rgb(196, 231, 245);
+        color: #fff;
+        display: block;
+        padding: 15px;
+        text-decoration: none;
+        width: 100%;
+        text-align: center;
+        margin: 0px;
+        margin-left: 10px;
+    }
+
+    a {
+        width: 100%;
+    }
+
+    nav ul li a {
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        margin: 1px auto;
+        line-height: 10px;
+        font-size: 20px;
+        width: 100%;
+    }
+
+    nav ul li:last-child {
+        margin-bottom: 10px;
+    }
+
+    nav ul li:first-child:hover {
+        background-color: transparent;
+    }
+
+    nav ul li:hover {
+        background-color: #111;
+        text-align: center;
+    }
+
+    nav ul li a:hover {
+        background-color: transparent;
+        text-align: center;
+    }
+
+}

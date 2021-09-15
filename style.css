@@ -1,0 +1,218 @@
+.main { 
+  background: url('https://data.whicdn.com/images/340869740/original.gif') no-repeat center center fixed; 
+  background-size: cover;
+}
+
+
+/* nav bar  */
+.logo {
+    height: 100px;
+    width: 240px;
+    margin: 0px; 
+    padding: 0px;
+    border: 0px;
+} 
+
+nav {
+  background-color: rgb(196, 231, 245);
+  margin: 0;
+  overflow: hidden;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start; 
+    padding-right: 10px;
+}
+
+nav ul li {
+  display: inline;
+  list-style-type: none;
+}
+
+nav ul li a {
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  padding: 25px;
+  margin: 3px;
+  line-height: 100px;
+  font-size: 25px;
+}
+
+nav ul li:first-child {
+    margin-right: auto;
+}
+
+nav ul li a:hover {
+  background-color: #111;
+  text-align: center;
+}
+
+/* general formating  */
+
+body {
+  font-size: 15px;
+}
+
+
+.hook {
+  font-family: 'luxus brut';
+  text-align: center;
+  font-size: 60px;
+}
+
+h1 {
+  font-family: 'luxus brut';
+  text-align: center;
+  font-size: 55px;
+}
+
+h2 {
+  font-family: 'luxus brut';
+  text-align: center;
+  font-size: 50px;
+}
+
+h3 {
+  font-family: 'luxus brut';
+  text-align: center;
+  font-size: 40px;
+}
+
+p {
+    font-size: 20px;
+}
+
+/* up button */
+.up {
+    background-color: Transparent;
+    border: 0px;
+}
+
+.imgup{
+    height: 170px;
+    width: 160px;
+}
+
+.upBtn {
+    text-align: right;
+}
+
+/* landing page */
+
+#content {
+    font-family: 'luxus brut';
+    text-align: center;
+    padding: 130px;
+}
+
+button {
+    background-color: white;
+    padding: 20px; 
+    border: solid; 
+    border-color: lightblue;
+    font-family: Playfair Display, serif;
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 10px; 
+}
+
+#submit {
+    text-align: center;
+}
+
+#submit:hover {
+    background-color:rgb(217, 232, 241);
+}
+
+
+.para {
+  font-family: 'luxus brut';
+  text-align: center;
+  font-size: 20px;
+}
+
+.bestBtnEver {
+    text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+    .imgup{
+        height: 110px;
+        width: 100px;
+    }
+
+    .hook {
+        font-family: 'luxus brut';
+        text-align: center;
+        font-size: 50px;
+    }
+
+    p {
+        font-size: 18px;
+    }
+
+    #content {
+        padding: 5px;
+    }
+
+    .logo {
+        height: 70px;
+        width: 180px;
+    }
+
+    .navbar {
+        width: 100%;
+        height: 150px;
+        overflow-y: auto;
+    }
+
+    .navbar li {
+        background-color: rgb(196, 231, 245);
+        color: #fff;
+        display: block;
+        padding: 15px;
+        text-decoration: none;
+        width: 100%;
+        text-align: center;
+        margin: 0px;
+        margin-left: 10px;
+    }
+
+    a {
+        width: 100%;
+    }
+
+    nav ul li a {
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        margin: 1px auto;
+        line-height: 10px;
+        font-size: 20px;
+        width: 100%;
+    }
+
+    nav ul li:last-child {
+        margin-bottom: 10px;
+    }
+
+    nav ul li:first-child:hover {
+        background-color: transparent;
+    }
+
+    nav ul li:hover {
+        background-color: #111;
+        text-align: center;
+    }
+
+    nav ul li a:hover {
+        background-color: transparent;
+        text-align: center;
+    }
+
+}
